@@ -144,7 +144,7 @@ return {
     })
   end,
   config = function(...)
-    require "plugins.configs.telescope"(...)
+    require "astronvim.plugins.configs.telescope"(...)
     local telescope = require "telescope"
     telescope.load_extension "bibtex"
     telescope.load_extension "file_browser"
