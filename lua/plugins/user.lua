@@ -1,3 +1,4 @@
+-- You can also add new plugins here as well using the lazy syntax:
 return {
   -- disable some stuff
   { "better-escape.nvim", enabled = false },
