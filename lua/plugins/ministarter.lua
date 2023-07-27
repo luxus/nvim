@@ -1124,7 +1124,7 @@ return {
           new_section("Find Git file", "Telescope git_files", "Telescope"),
           new_section("Old files(Recent)", "Telescope oldfiles", "Telescope"),
           new_section("Word grep", "Telescope live_grep", "Telescope"),
-          new_section("Config", "e ~/.config/astronvim", "Config"),
+          new_section("Config", "e ~/.config/nvim", "Config"),
           new_section(
             "Directory Session",
             function() require("resession").load(vim.fn.getcwd(), { dir = "dirsession" }) end,
