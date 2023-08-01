@@ -44,7 +44,7 @@ require("lazy").setup {
     { import = "astrocommunity.motion.mini-move", enabled = true },
     { import = "astrocommunity.motion.mini-surround", enabled = true },
     { import = "astrocommunity.motion.mini-bracketed", enabled = true },
-    { import = "astrocommunity.motion.mini-move" },
+    -- { import = "astrocommunity.motion.mini-move" },
     { import = "astrocommunity.motion.mini-ai" },
     { import = "astrocommunity.motion.portal-nvim" },
     { import = "astrocommunity.editing-support.mini-splitjoin" },
