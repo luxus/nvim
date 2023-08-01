@@ -1,5 +1,3 @@
-if true then return {} end -- REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- AstroLSP allows you to customize the features in AstroNvim's LSP configuration engine
 return {
   "AstroNvim/astrolsp",
