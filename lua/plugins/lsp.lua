@@ -1,6 +1,7 @@
 -- AstroLSP allows you to customize the features in AstroNvim's LSP configuration engine
 return {
   "AstroNvim/astrolsp",
+  ---@type AstroLSPOpts
   opts = {
     features = {
       lsp_handlers = false,
