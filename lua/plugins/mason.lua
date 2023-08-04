@@ -1,6 +1,7 @@
 -- customize mason plugins
 return {
   -- use mason-lspconfig to configure LSP installations
+  { "mason.nvim", opts = { PATH = "append" } }, -- Mason binaries will have the lowest priority
   {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
