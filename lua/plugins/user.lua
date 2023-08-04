@@ -182,6 +182,7 @@ return {
           { mode = "n", keys = "<Leader>g", desc = "+Git" },
           { mode = "n", keys = "<Leader>gn", desc = "+NeoGit" },
           { mode = "n", keys = "<Leader>S", desc = "+Sessions" },
+          { mode = "n", keys = "<Leader>p", desc = "+Plugins" },
           { mode = "n", keys = "<Leader>t", desc = "+Terminal" },
           { mode = "n", keys = "<Leader>u", desc = "+Toggle UI" },
           { mode = "n", keys = "<Leader>x", desc = "+Trouble" },
